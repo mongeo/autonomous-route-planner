@@ -1,14 +1,19 @@
 # autonomous-route-planner
-Simulation of autonomous vehicle route planning using graph search algorithms including A* and Dijkstra. Includes dynamic traffic simulation and route visualization.
 
-Features:
+Simulation of autonomous vehicle route planning using graph search algorithms including A* and Dijkstra.
 
-Graph-based road network modeling
+## Features
 
-A* pathfinding algorithm
+- Graph-based road network
+- A* pathfinding algorithm
+- Dijkstra shortest path
+- Traffic simulation
+- Route visualization
 
-Dijkstra shortest path algorithm
+## Installation
 
-Traffic simulation modifying route costs
+pip install -r requirements.txt
 
-Route visualization
+## Run
+
+python main.py
